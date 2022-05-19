@@ -1,0 +1,25 @@
+{
+  "name": "badgebot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "src/app.js",
+  "author": "Doctor Co#4913",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "glob": "^8.0.3",
+    "mongoose": "^6.3.3",
+    "node-emoji": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "clean": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  }
+}
