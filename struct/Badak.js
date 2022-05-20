@@ -24,7 +24,7 @@ module.exports = class BadakBot extends Client {
   async start(token) {
     this.login(token);
 
-    mongoose.connect("mongodb+srv://doctorcody:testyfreely@testy.dvr09.mongodb.net/?retryWrites=true&w=majority", {
+    mongoose.connect("", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
